@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/rild:$(TARGET_COPY_OUT_VENDOR)/bin/rild \
-    vendor/samsung/universal9810-common/proprietary/vendor/bin/macloader: $(TARGET_COPY_OUT_VENDOR)/bin/macloader
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/macloader
 
 # etc
 PRODUCT_COPY_FILES += \
