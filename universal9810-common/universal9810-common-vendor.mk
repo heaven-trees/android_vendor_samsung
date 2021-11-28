@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/rild:$(TARGET_COPY_OUT_VENDOR)/bin/rild \
-    vendor/samsung/universal9810-common/proprietary/vendor/bin/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/macloader
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader
 
 # etc
 PRODUCT_COPY_FILES += \
@@ -157,6 +157,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.bridge@2.0.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.1.so
+
+# lib64
+PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Core.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Resourcemanager.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGrallocWrapper.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libLLVM_android_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libLLVM_android_mali.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriverArm.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSEF.quram.so
 
 PRODUCT_PACKAGES += \
     libskeymaster3device \
