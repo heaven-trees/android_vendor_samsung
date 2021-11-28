@@ -21,3 +21,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/etc/nfc_key:$(TARGET_COPY_OUT_SYSTEM)/etc/nfc_key \
     vendor/samsung/universal9810-common/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/samsung/universal9810-common/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so
+
+# bin
+PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/bcc_mali:$(TARGET_COPY_OUT_VENDOR)/bin/bcc_mali \
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/bcc_mali:$(TARGET_COPY_OUT_VENDOR)/bin/bcc_mali \
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/rild:$(TARGET_COPY_OUT_VENDOR)/bin/rild \
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/macloader: $(TARGET_COPY_OUT_VENDOR)/bin/macloader
