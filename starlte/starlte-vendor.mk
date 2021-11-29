@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starlte/proprietary/vendor/lib64/hw/gralloc.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos9810.so \
     vendor/samsung/starlte/proprietary/vendor/lib64/hw/hwcomposer.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos9810.so \
     vendor/samsung/starlte/proprietary/vendor/lib64/hw/memtrack.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos9810.so \
-    vendor/samsung/starlte/proprietary/vendor/lib64/hw/sensors.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.exynos9810.so \
     vendor/samsung/starlte/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so \
     vendor/samsung/starlte/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/starlte/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
