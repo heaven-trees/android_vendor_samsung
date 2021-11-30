@@ -238,55 +238,54 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starlte/proprietary/vendor/etc/tms_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tms_audio_policy_configuration.xml \
     vendor/samsung/starlte/proprietary/vendor/etc/wlan_common_rc:$(TARGET_COPY_OUT_VENDOR)/etc/wlan_common_rc \
     vendor/samsung/starlte/proprietary/vendor/etc/wlan_vendor_rc:$(TARGET_COPY_OUT_VENDOR)/etc/wlan_vendor_rc \
+    vendor/samsung/starlte/proprietary/vendor/firmware/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AP_AUDIO_SLSI.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APDV_AUDIO_SLSI.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AP_AUDIO_SLSI.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/HFD.cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD.cfg.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/HFD.model.new:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD.model.new \
-    vendor/samsung/starlte/proprietary/vendor/firmware/HFD_PP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD_PP.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/HFD_tracker.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD_tracker.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/bcm4361B2_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4361B2_murata.hcd \
     vendor/samsung/starlte/proprietary/vendor/firmware/bcm4361B2_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4361B2_semco.hcd \
     vendor/samsung/starlte/proprietary/vendor/firmware/calliope_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_dram.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/calliope_iva.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_iva.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/calliope_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_sram.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/cs47l92-dsp1-trace.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs47l92-dsp1-trace.wmfw \
-    vendor/samsung/starlte/proprietary/vendor/firmware/dsm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsm.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/dsm_tune.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsm_tune.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/dual_cal.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dual_cal.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/dsm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsm.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/fimc_is_rta_2l3_3h1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_rta_2l3_3h1.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/HFD_PP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD_PP.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/HFD_tracker.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD_tracker.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/HFD.cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD.cfg.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/HFD.model.new:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD.model.new \
     vendor/samsung/starlte/proprietary/vendor/firmware/iva20_rt-lhotse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/iva20_rt-lhotse.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/nfc/BRI/sec_s3nrn82_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/BRI/sec_s3nrn82_firmware.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/nfc/sec_s3nrn82_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn82_firmware.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/ois_fw_dom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_dom.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_sec.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/setfile_2l3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2l3.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/setfile_3h1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3h1.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/setfile_3m3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3m3.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/nfc/sec_s3nrn82_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn82_firmware.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/nfc/BRI/sec_s3nrn82_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/BRI/sec_s3nrn82_firmware.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/score/camera1/score_kc1_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc1_dmb.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/score/camera1/score_kc1_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc1_pmw.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/score/camera1/score_kc2_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc2_dmb.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/score/camera1/score_kc2_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc2_pmw.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/score/camera1/score_mc_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_mc_dmb.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/score/camera1/score_mc_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_mc_pmw.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera2/score_kc1_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera2/score_kc1_dmb.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera2/score_kc1_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera2/score_kc1_pmw.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera2/score_kc2_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera2/score_kc2_dmb.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera2/score_kc2_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera2/score_kc2_pmw.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera2/score_mc_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera2/score_mc_dmb.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera2/score_mc_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera2/score_mc_pmw.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_kc1_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera3/score_kc1_dmb.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_kc1_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera3/score_kc1_pmw.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_kc2_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera3/score_kc2_dmb.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_kc2_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera3/score_kc2_pmw.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_mc_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera3/score_mc_dmb.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_mc_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera3/score_mc_pmw.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/develop1/score_dummy:$(TARGET_COPY_OUT_VENDOR)/firmware/score/develop1/score_dummy \
-    vendor/samsung/starlte/proprietary/vendor/firmware/setfile_2l3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2l3.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/setfile_3h1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3h1.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/setfile_3m3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3m3.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera2/score_kc1_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc1_dmb.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera2/score_kc1_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc1_pmw.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera2/score_kc2_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc2_dmb.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera2/score_kc2_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc2_pmw.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera2/score_mc_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_mc_dmb.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera2/score_mc_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_mc_pmw.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_kc1_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc1_dmb.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_kc1_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc1_pmw.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_kc2_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc2_dmb.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_kc2_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc2_pmw.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_mc_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_mc_dmb.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_mc_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_mc_pmw.bin \
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/develop1/score_dummy:$(TARGET_COPY_OUT_VENDOR)/firmware/score/develop1/score_dummy
     vendor/samsung/starlte/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
     vendor/samsung/starlte/proprietary/vendor/lib/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@2.0-util.so \
     vendor/samsung/starlte/proprietary/vendor/lib/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0-util.so \
