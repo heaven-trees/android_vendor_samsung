@@ -337,8 +337,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starlte/proprietary/vendor/lib/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGLES_mali.so \
     vendor/samsung/starlte/proprietary/vendor/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
     vendor/samsung/starlte/proprietary/vendor/lib/libHMT.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHMT.so \
-    vendor/samsung/starlte/proprietary/vendor/lib/libHprFace_GAE_api.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHprFace_GAE_api.camera.samsung.so \
-    vendor/samsung/starlte/proprietary/vendor/lib/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so \
     vendor/samsung/starlte/proprietary/vendor/lib/libIDDQD_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libIDDQD_core.so \
     vendor/samsung/starlte/proprietary/vendor/lib/libIDDQD_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libIDDQD_interface.so \
     vendor/samsung/starlte/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
@@ -638,8 +636,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starlte/proprietary/vendor/lib64/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGLES_mali.so \
     vendor/samsung/starlte/proprietary/vendor/lib64/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGrallocWrapper.so \
     vendor/samsung/starlte/proprietary/vendor/lib64/libHMT.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHMT.so \
-    vendor/samsung/starlte/proprietary/vendor/lib64/libHprFace_GAE_api.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHprFace_GAE_api.camera.samsung.so \
-    vendor/samsung/starlte/proprietary/vendor/lib64/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so \
     vendor/samsung/starlte/proprietary/vendor/lib64/libIDDQD_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libIDDQD_core.so \
     vendor/samsung/starlte/proprietary/vendor/lib64/libIDDQD_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libIDDQD_interface.so \
     vendor/samsung/starlte/proprietary/vendor/lib64/libLLVM_android_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libLLVM_android_mali.so \
