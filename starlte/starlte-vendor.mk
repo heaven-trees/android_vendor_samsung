@@ -285,7 +285,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_kc2_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc2_pmw.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_mc_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_mc_dmb.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/score/camera3/score_mc_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_mc_pmw.bin \
-    vendor/samsung/starlte/proprietary/vendor/firmware/score/develop1/score_dummy:$(TARGET_COPY_OUT_VENDOR)/firmware/score/develop1/score_dummy
+    vendor/samsung/starlte/proprietary/vendor/firmware/score/develop1/score_dummy:$(TARGET_COPY_OUT_VENDOR)/firmware/score/develop1/score_dummy \
     vendor/samsung/starlte/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
     vendor/samsung/starlte/proprietary/vendor/lib/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@2.0-util.so \
     vendor/samsung/starlte/proprietary/vendor/lib/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0-util.so \
